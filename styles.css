@@ -1,0 +1,170 @@
+/* Universal Styles */
+
+body {
+  margin: 0;
+  font-family: Helvetica, sans-serif;
+  font-size: 22px;
+  background-color: black;
+  color: seashell;
+  text-align: center;
+  opacity: 0.9;
+}
+
+.teamages {
+  display: flex;
+}
+
+header, .statement {
+  display: flex;
+  align-items: center;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;  
+}
+
+.tea-images, .locations-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.box-holder {
+  display: flex;
+  justify-content: center;
+}
+
+.location-box {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.statement div, #tea, #locations, .box-holder {
+  padding: 10px 0;
+}
+
+h2, h3, h4 {
+  margin: 0;
+  padding: 10px;  
+}
+
+a {
+  text-decoration: underline;
+  color: seashell;
+}
+
+/* Header Section  */
+
+header {
+  height: 69px;
+  width: 100%;
+  background-color: black;
+  border-bottom: 1px solid seashell;
+  justify-content: space-between;
+  position: fixed;
+  z-index: 1;
+}
+
+header img {
+  padding-left: 10px;
+  height: 50px;
+}
+
+ul {
+  text-align: right;
+}
+
+li {
+  padding: 20px 10px;
+  display: inline-flex;  
+}
+
+/* Main Content */
+
+main {
+  border: solid black;
+}
+
+/* Mission Section */
+
+.statement {
+  padding-top: 69px;
+  height: 700px;
+  width: 1200px;
+  background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg?_gl=1*136g6uu*_ga*NzU1MDQwMzk4OS4xNjU1ODQ3MDky*_ga_3LRZM6TM9L*MTY1NjgyMzE4MS40My4wLjE2NTY4MjMxODEuNjA.");
+}
+
+.statement div {
+  width: 100%;
+  background-color: black;
+}
+
+/* Featured Teas Section */
+
+#tea {
+  padding-top: 69px;
+  width: 1000px;  
+}
+
+
+.tea-images img {
+  height: 200px;
+  width: 300px;
+}
+
+figure {
+  margin: 20px;
+}
+
+/* Locations Section */
+
+.locations-container {
+  width: 100%;
+  background-image:url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg?_gl=1*z3z7t2*_ga*NzU1MDQwMzk4OS4xNjU1ODQ3MDky*_ga_3LRZM6TM9L*MTY1Njg4NTI2NS40Ni4wLjE2NTY4ODUyNjYuNTk.");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#locations h2 {
+  padding-top: 69px;
+}
+
+.box-holder {
+  height: 500px;
+  width: 1200px;
+}
+
+.location-box {
+  margin-right: 40px;
+  margin-top: 15px;
+  width: 300px;
+  height: 300px;
+  background-color: black;
+  color: seashell;
+  opacity: 1.0;
+}
+
+footer div {
+  margin-top: 100px;
+  width: 1100px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;  
+  position: relative;
+  bottom: 100px;
+  left: 100px;
+}
+
+footer h5 {
+  text-align: left;
+  padding-left: 20px;
+}
+
+
+
+
+
