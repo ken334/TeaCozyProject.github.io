@@ -10,7 +10,7 @@ body {
   opacity: 0.9;
 }
 
-.teamages {
+.tea-images {
   display: flex;
 }
 
@@ -43,7 +43,7 @@ main {
   flex-direction: column;
 }
 
-.statement div, #tea, #locations, .box-holder {
+.statement div, #locations, .box-holder {
   padding: 10px 0;
 }
 
